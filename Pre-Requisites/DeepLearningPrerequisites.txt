@@ -1,0 +1,186 @@
+Numpy Stack in Python:
+
+- Similar to MERN & LAMP Stack
+
+- Numpy - Raw Materials
+- Matplotlib - Visualise
+- Pandas - CRUD
+- Scipy - Stats
+
+NUMPY:
+- Core Library
+- Numpy Array is IMP
+- Python Lists
+- Linear Algebra & Probablity
+
+Vector is 2D in linear Algebra
+But In Numpy: Vector = 1D
+
+- Dot Product
+- Matrix Multplication
+- Element-Wise Product = Very Common in ML
+- Linear Systems Ax =b
+- Inverse, Determinant
+- Choosing Random Numbers
+
+- Linear Regression
+- Logistic Regression
+- Deep Neural Networks
+- K-Means Clustering 
+- Density Estimation
+- Principal Components Analysis
+- Matrix Factorization(Recommender Systems)
+- Support Vector Machines (SVM)
+- Markov Models, HMM
+- Control Systems
+- Game Theory
+- Operations Research
+- Portfolio Optimization
+
+Arrays vs Lists
+- Mutability
+- broadcasting while Addition
+- Multiply Operator
+- List Comprehensions
+- Array Operates Element-wise
+
+Dot Product
+- Zip Function
+- Using Length & Iterations
+- Plane Multiplications
+- Sum Instance Method
+- Inbuilt Dot Function
+- Dot Instance Method
+- @ Operator
+
+Dot Product - Cos(x) Method
+- Magnitude of Vector
+- Using Linalg
+
+Speed Test = dot function >>> for loop
+
+Matrices
+- 2D Array
+- numpy.matrix = 2D Always.. but np.Array can be Any Dimensional.. so not recommended
+- Convert Matrix to Array First.. Before doing Any Processing
+- Exception :- Sparse Matrices in Scipy
+
+- by Convention = Rows Come First Then Columns 
+- Numpy Arrays Bettter
+- Matrix Multiplication
+- Other Matrix Functions: Determinant, Inverse, Trace
+- diag function = matrix -> Vector -> matrix
+- eigen Values & Vectors Vector Decomposition
+- all close function
+- for Symmetric Matrix.. Uses Hermitian Matrix.. can Handle Complex Numbers
+
+Solving Linear Systems:
+- by Matrix
+- Using Inverse Matrix is Less Accurate & Slower
+- Rather Solve Function in LinAlg
+- Error is Scalewise.. Can be Ignored on Small Scale but Error++ as Complicates..
+
+Generating Data:
+- Needed in case eg. Neural Networks
+- To Generate Synthetic Data to Test your Algorithm
+
+- Array of All Zeroes, Ones & n * Ones
+- Identity Matrix - eye
+- Arrays with Random Numbers - very useful in Deep Learning & Markup Chain Multicolumns
+- Random Functions
+- Distribution of Source of Random Numbers 
+- uniform Distribution - Between 0 & 1 - Random Function
+- Standard Normal (Gaussian) Distribution - Mean 0 & Variance 1 
+- Stats - Random Number Data -  mean, Variance, Standard Deviation
+- Stats - Random Matrix Data - Columnwise - Mean using Axis
+
+- Data in Machine Learning - Organised
+- Row - Sample/Observation & Column - Measurement
+- Each Row of Matrix is a Vector - Vector Applications
+- Covariance - Treats Each Column as a Vector Observation
+- To Fix - Transpose / Rowvar
+
+- Random Integers
+- randint(low,high,size,dtype)
+
+- Choice(a(source), size, replace(boolean), probablity)
+
+
+Numpy Exercise:
+- Matrix Multiplication using Lists vs Numpy Array
+
+Numpy in Future:
+- ML Algorithms
+- Preview : Linear Regression
+- Preview : Deep Neural Networks - Activation Functions
+- Skillsets:
+ 1. Math Operations
+ 2. Theory Behind ML Models
+eg. Customer Segmentation - K-Means Clustering
+ Self-Driving Cars - Deep Neural networks & Computer Vision
+
+
+Matplotlib!!
+- To Visualise Data
+- Line Charts - Any Kind of 1D Signal
+- Scatterplot - Geometric POV
+- Histogram- Probablity Distribution of Data
+- Images - Computer Vision 
+
+Line Charts!
+- linspace
+- plt.plot() & plt.show()
+- label
+
+Scatterplot
+- 100 x 2 - Creating 2 Dimensional Data
+plt.scatter(x,y)
+
+
+Histogram
+- plt.hist()
+- plt.hist(X ,bins=50)
+
+Plotting Images!
+Famous ML Datasets = CIFAR-10, MNIST
+jpeg, jpg
+
+get image from Web using Wget..
+or Else Download & Provide File Path
+
+- Image Format - jpeg
+- Convert into Numpy Array
+- Array - Only Made using Integers Between 0 to 255 - dtype = uint8
+- Shape of Array - 3 Dimensional - First 2 For Pixel - 3rd For RGB value of Each Pixel
+- plt.imshow(im)
+-grayscale - Heatmap
+-CMAP - plt.imshow(gray, cmap ='gray');
+
+Exercise; Generate and Plot the XOR Dataset
+
+
+
+
+
+Pandas:
+- Read, Write & Manipulate Data
+- Read/Write CSV
+- Dataframes
+- Selecting Rows & Columns
+- apply()
+- Plotting
+
+
+Loading in Data:
+- Used For Structured Format - CSV or TSV
+- CSV - Comma Seperated Values
+- TSV - Tab Seperated Values
+
+LETSSSSS GOOOOOO!
+After a plethora of Errors.. We are Back on Track!!
+
+Dataframe
+df = pd.read_csv('sbux.csv')
+df.head(), df.tail(), df.info()
+
+
