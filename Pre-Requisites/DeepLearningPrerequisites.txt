@@ -184,3 +184,35 @@ df = pd.read_csv('sbux.csv')
 df.head(), df.tail(), df.info()
 
 
+Selecting Rows & Columns
+- df.columns
+- to Change Column Name
+- to check a Specific Column/Row - datatype - Series
+- to Check multiple Columns/ - datatype - Dataframe
+
+to Select Rows
+- iloc & loc
+- iloc - integer indices
+- loc - Selects Row by Index Label
+
+- numpy is More Consistent
+- df.values
+
+- smalldf - to save Part of CSV as New
+
+ Apply Function
+- Each Element of a Row or Column!
+- Basically an Efficient Alternative of For Loop!
+
+Plot With Pandas! 
+- .hist()
+- .plot()
+- .box()
+- scatter_matrix 
+  - alpha = 0.2 - Transparent Dots
+  - figsize - Bigger
+
+
+
+
+
