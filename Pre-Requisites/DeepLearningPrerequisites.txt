@@ -213,6 +213,48 @@ Plot With Pandas!
   - figsize - Bigger
 
 
+SCIPY!!
+- Numpy's Superpowered Version
+- Adds functionality for Statistics, Signal Processing, Computer Vision
+- Standard normal -> multivariate normal
+- PDF, CDF
+- Convolution
+  - (used in deep learning, computer vision, Signal Processing & Even Statistics! )
+
+
+PDF & CDF
+- submodule - norm
+- fx = pdf = (x,loc=0,scale=1)
+  - loc = mean ; scale = standard deviation
+- FX = cdf
+- logfx = logpdf
+
+Convolution
+- DL, signal Processing , Signal processing & Statstistics!
+- Convolution to an Image - Creating a Blurring Filter
+- 2D Convolution is defined for 2D images.. No need of 3rd Color Dimension
+
+- Image with wget
+- Convert to wget
+- 2D Gaussian Filter = 2D Speherical Gaussian = K(x1, x2) = Outer Product of fx
+- Outer Product = Matrix of product of All the Element in 2 Co-ordinate Vectors
+- plot with Cmap Ggray
+- Convolve 2D function
+
+Exercise
+- Define 2 Filters Hx & Hy - Subl filters
+- Convolution of Both these Filters on an Image
+- Output = Gx & Gy
+- Combine Gx & Gy
+
+- Absolutely Correctly Applied - Output - Not as Expected
+- Issue: I tried with Norm Approach..But that Created Hard Filters..
+- GPT: Tried Direct Convolve2D
+- Works!!
+
+- Deep Learning Pre-requisites Course Ends!!
+
+
 
 
 
