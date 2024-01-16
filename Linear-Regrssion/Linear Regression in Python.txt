@@ -1,0 +1,147 @@
+Learning this Course:
+https://www.udemy.com/course/data-science-linear-regression-in-python/?referralCode=A6A896C0AC0F14D7872D&utm_source=lazyp
+
+Index:
+https://deeplearningcourses.com/c/data-science-linear-regression-in-python
+
+Link:
+https://archive.org/details/tutsgalaxy.-com-udemy-deep-learning-prerequisites-linear-regression-in-python
+
+Let's Go!!
+
+
+Linear Regression!!
+
+- First Step into ML &DL
+- Simple Model with Pros & Cons
+- Always Chapter 1!!
+
+- Fundamental Concept in Many Important Fields: From Finance to Psycology!
+- Swiss Army Knife of Data Analysis! - One Tool for Everything!!
+
+- Statistic vs Machine Learning Approach - (Sadly I Couldn't Find the Video)
+
+What is Linear Regression:
+- Line that Best Fits the Given Data
+- Why Use Math? - More Accurate - All Get the Same Answer - More Inputs by ML
+- Feature Engineering - Non Linear Regression, Probablity, Loss Functions!
+
+Course!
+1. Simple Linear Regression
+- How Predictions Work ?, How Model Learns ?
+- How to Evaluate - R^ 2 & Mean Squared Error
+- Real World Problem Application - Moore's Law
+
+2. Multiple Linear Regression
+- How Predictions Work ?, How Model Learns ?
+- Implementing on a Medical Problem - Blood Pressure with Age & Weight
+
+3. Practical Issues in Linear Regression
+- Model Interpretation 
+- Handling Categorical Input/ Features
+- Evaluating the Model with Unseen Test Data (Generalization)
+- Regularization
+- Probablisitic Viewpoint - MLE & MAP
+- Gradient Descent (Scaling to Modern Problems) - Not Needed - But Useful Later
+
+How to Succeed this Course!
+- Guidelines!
+1. Use QNA
+2. Meet the Pre-Requsities
+3. Implement Everything in Code!
+
+
+Pre-requisites:
+- Calculus - Derivative, Partial Derivative
+- Python - loop, if-else, Variables, list, Array
+- Linear Algebra - Vectors, Matrices
+- Probablity - Gaussian/Normal Distribution - Mean & Variance\
+
+What is Machine Learning ?
+- Try to Predict an Outcome from Past Examples
+- Supervised - Output is Given (X -> Y)
+- Unsupervised - No Output, Just Trying to Learn the Structure(X)
+
+Supervised Learning!!
+1. Classification
+ - Trying to Predict a Category or Label
+    - What digit is This?
+    - Does this Picture Contain a Cat?
+
+2. Regression
+ - Trying to Predict a real-valued Number or Vector
+     - Tempreture
+     - Stock Price
+
+- Linear Regression is Supervised! - Line of Best Fit!
+
+Real World Examples
+- X = #Hours of Exercise a Week ; Y = BMI
+- X = #Hours of Studying ; Y=Grade
+
+Note:
+	This Only Proves that 2 Variables are Related to Each Other
+	But it Dosen't Mean that One Causes the Other!!
+	There Could be Some Third Cause
+
+
+Simple Linear Regression:
+- Simple Example - Ohm's Law
+- V = IR Compare with y = mx + c
+- y = V ; x = I ; m = R
+- Example Finding Resistance
+- Many (V1, I1), (V2, I2), (V3, I3).. Etc - Plot on 2D Chart
+- Perfect Line
+- Sources of Error like Measurement or Resistance of Copper Wire/ Equations are just Ideal Models
+- Soln => The Line of Best Fit! 
+   - The Line that Get's through as Many Points as Possible
+   - # Points above = # Points below
+- Slope = Dy/Dx
+
+
+All Data is Same!!
+- Y-axis an X-axis can Represent Anything!
+
+*****Linear Regression Problem!*****
+
+- Let the Line of Best Fit => yi = aXi + b
+- Actual Yi is as Close to the yi as Possible
+
+We have to Find the Error First!!
+
+- Find All the Positive Error - for Every target != Prediction
+- Standard Way = "Sum of Squared Errors"
+
+Error = Sum (from 1 to N) {Square of Diffrence}
+
+- Minimizing the Error! - by doing DE/dx = 0
+
+- In this Case We Want to Minimize E wrt A & B
+- Since we have a Single Equation, We have to use partial Derivation
+
+- del(E)/del(a) & Set it to 0
+- Make Everything Positive & Wait!
+
+- del(E)/del(a) & Set it to 0
+- Make Everything Positive!
+
+Now 2 Equations 2 Variables!
+
+	aC + bD = E => Multiply by D
+	aD + bN = F => Multiply by C
+	 
+	Solve for b, find A = > Denominators are Same
+- Replace Stuff using Sample Mean Definition for only x & both y & x
+
+- Numpy Trick!
+- Dot Product can be Directly used for xiyi or xixi..
+- Hence very useful for mean(), sum().. etc!
+
+
+
+
+
+
+
+
+
