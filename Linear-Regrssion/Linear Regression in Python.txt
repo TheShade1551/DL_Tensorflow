@@ -138,7 +138,51 @@ Now 2 Equations 2 Variables!
 - Hence very useful for mean(), sum().. etc!
 
 
+***Plotting the 1-D Linear Regression!***
 
+- Wget All the Needed csv Files
+-  load the data from CSV & split it in x y & append to X & Y as Float
+- Convert Both into numpy array
+- Plot the Data to Check what we are Dealing with
+
+- Apply the Equations we Learned to Find a & b
+- Denominator first
+- Use Dot Product - Numpy Array Property for Easily Writing the Values
+- Then Write the Calculated Value of a & b
+- Then Calculate Predicted Y, i.e. Yhat = aX + b
+- & Plot Everything to Get the Final Answer!!
+The Line of Best Fit!!
+
+Excercise: Theory vs Code!
+- Verify How We Wrote the Value of a & b's Numerators
+- Confirm if what we Wrote is Same as What we Calculated!
+
+- Recall:
+  - Multiplying or Dividing by N/N dosen't change the Answer, Since N/N = 1
+
+
+**R-squared Model** How good the Model is:
+- Mathematical Interpretation of Goodness of Model
+- Sqr(R) = 1 - Sum of Square(Residual) / Sum of Square(total)
+
+- Sum of Square(Residual) = Sum of (y - yhat)^ 2 
+- Sum of Square(total) = Sum of (y - y.mean)^ 2
+
+- If SSr tends to zero; R^ 2 tends to 1
+- If SSr tends to 1; R^ 2 tends to 0
+
+- R^ 2 = 1 - Predicted Error/ Actual Error
+- R^ 2 should be between 0 & 1
+- If R^ 2 is Negative when Predicted Error is More than Total Error
+   - That Means that Your Prediction is Worse than Actual Data.
+
+- So we want the Calculation of Mean with Best Fit & Predicted to be similar.
+
+
+***Plotting the R^ 2*****
+- d1 = vector - vector => d1 = vector
+- d2 = vector - scalar(mean) => "Numpy does this Convinient Thing that it Substracts
+ - => d2 = vector			the Value of mean from each y" 
 
 
 
