@@ -182,7 +182,59 @@ Excercise: Theory vs Code!
 ***Plotting the R^ 2*****
 - d1 = vector - vector => d1 = vector
 - d2 = vector - scalar(mean) => "Numpy does this Convinient Thing that it Substracts
- - => d2 = vector			the Value of mean from each y" 
+ - => d2 = vector		the Value of mean from each y" 
+
+
+
+Moore's Law:
+- Great Thing about Linear Regression - Applicable to Many Problems, Even the Once that Don't Seem Linear at First
+- First Line of Attack to Discover Correlations in data
+
+-  Famous Result in Computer Science - Moore's Law
+- Transistor Count on an Integrated Circuit, IC doubles approx every two Years..
+- Exponential?
+- We'll use Log - to get Linear Data
+
+- X Axis: Time ; Y-Axis:- Log of Transistor Counts
+- Do it Yourself!
+
+****Moore's Law Demonstration****
+- Import re = Regular Expression
+- Create Empty Lists X & Y
+- Remove Non-Decimal Characters using Regex
+
+- From Moore.csv remove anything that's not decimal..
+- Also have to Remove the Refrences
+
+- Putting Year in 3rd Column, Transistor Count - 2nd Column
+
+- Then Convert X & Y into Numpy Array
+- Create a Scatterplot of the Orignal Data - Exponential
+
+- Now Take a Log of Y
+- Plot Scatter Again - Linear Data
+
+- Solution for Linear Regression Begins!
+
+ - Similar Formula of Dot Product & Mean Continues..
+- get a & b in the Formula
+- Obtain Yhat
+- Plot Line of Best Fit with Yhat
+
+- Comuting Accuracy of Model using R^ 2 
+- d1 & d2.. Standard R^ 2 Procedure..
+- Print a, b & R-Squared
+
+- How Long Does it Take For Transistor Count to Double!
+- Long Calculation to Achieve the Double Years in ln2/a Years!
+
+- Answer: - 1.974 Years
+
+
+
+
+
+
 
 
 
